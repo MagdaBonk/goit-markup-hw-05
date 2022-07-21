@@ -125,8 +125,11 @@ header svg {
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
-        url(/goit-markup-hw-04/images/background-image.jpg) no-repeat center;
-    background-size: cover;
+        url(/goit-markup-hw-04/images/background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1600px auto;
+    align-items: center;
     height: 600px;
     padding-top: 200px;
 }
