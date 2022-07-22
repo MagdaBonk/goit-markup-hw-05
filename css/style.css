@@ -545,9 +545,9 @@ address {
 .portfolio-things {
     width: 370px;
     height: 404px;
-    border: 1px solid #eeeeee;
     margin: 0;
     cursor: pointer;
+    border: solid 1px #eeeeee;
     position: relative;
     overflow: hidden;
 }
@@ -577,12 +577,10 @@ address {
     padding-left: 24px;
     padding-top: 15px;
     height: 110px;
-    overflow: hidden;
-    position: relative;
 }
 
-.portfolio-things img {
-    max-width: 100%;
+.figcaption {
+    background-color: var(--white-color);
 }
 
 .portfolio-things:hover .overlay {
