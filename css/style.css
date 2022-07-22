@@ -542,12 +542,22 @@ address {
     gap: 30px;
 }
 
+.check-portfolio figcaption {
+    background-color: var(--white-color);
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+}
+
+.check-portfolio figure {
+    font-size: 0;
+}
+
 .portfolio-things {
     width: 370px;
     height: 404px;
     margin: 0;
     cursor: pointer;
-    border: solid 1px #eeeeee;
     position: relative;
     overflow: hidden;
 }
@@ -577,10 +587,6 @@ address {
     padding-left: 24px;
     padding-top: 15px;
     height: 110px;
-}
-
-.figcaption {
-    background-color: var(--white-color);
 }
 
 .portfolio-things:hover .overlay {
